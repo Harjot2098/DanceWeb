@@ -1,0 +1,25 @@
+doctype html
+head
+	title dance academy
+	block scripts
+		script(src='/index.js')
+	block style
+		include ../static/style.css		
+	body
+		nav#navbar
+			ul
+				div#logo
+					img(src="/static/img/images.png")
+				
+				li #[a(href="/") Home]
+				li #[a(href="/") About us]
+				li #[a(href="/") services]
+				li #[a(href="/") class info]
+				li #[a(href="/contact") contact us]
+
+		block content
+		block footer
+			footer#footer
+				|Copyright @ 2020 Harry dance academy .com | All right reserve
+		
+
